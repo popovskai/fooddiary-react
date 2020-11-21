@@ -1,0 +1,13 @@
+html, body, body > div, .App {
+  height: 992px;
+  background-image: url("land.jpg");
+  background-color: rgba(255, 255, 255, 0.486);
+  background-blend-mode: overlay;
+}
+.card-body:hover{
+  background-color: aliceblue;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
